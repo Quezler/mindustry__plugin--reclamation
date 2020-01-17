@@ -51,7 +51,7 @@ public class ReclamationPlugin extends Plugin{
 
             if(Strings.canParseInt(arg[0]) && Strings.parseInt(arg[0]) >= 0){
                 int lim = Strings.parseInt(arg[0]);
-                Core.settings.put("reclamation-modulust", lim);
+                Core.settings.put("reclamation-modulus", lim);
                 info("Reclamation modulus is now &lc{0}.", lim);
             }else{
                 err("Invalid number.");
