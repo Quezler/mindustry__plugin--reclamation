@@ -1,0 +1,7 @@
+{
+  "name": "mindustry__plugin--reclamation",
+  "author": "Quezler",
+  "main": "net.queztech.mindustry.plugin.reclamation.ReclamationPlugin",
+  "description": "Strengthens the foothold of the enemy as time goes on. (aka: spawns become larger ever wave)",
+  "version": 1.0
+}
