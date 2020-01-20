@@ -49,7 +49,7 @@ public class ReclamationPlugin extends Plugin{
                 return;
             }
 
-            if(Strings.canParseInt(arg[0]) && Strings.parseInt(arg[0]) >= 0){
+            if(Strings.canParseInt(arg[0]) && Strings.parseInt(arg[0]) > 0){
                 int lim = Strings.parseInt(arg[0]);
                 Core.settings.put("reclamation-modulus", lim);
                 info("Reclamation modulus is now &lc{0}.", lim);
